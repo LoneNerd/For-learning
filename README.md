@@ -38,7 +38,7 @@ pip install -r requirements.txt
 1. Run the script:
 
 ```sh
-python rename_files_gui.py
+python rename-multi-file.py
 ```
 
 2. Enter the required details in the GUI:
@@ -61,7 +61,7 @@ pip install pyinstaller
 2. Run the following command to create an executable:
 
 ```sh
-pyinstaller --onefile --windowed rename_files_gui.py
+pyinstaller --onefile --windowed "rename-multi-file.py"
 ```
 
 3. The executable file will be created in the `dist` directory.
